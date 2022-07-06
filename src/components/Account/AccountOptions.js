@@ -76,7 +76,7 @@ function getMenuOptions(selectedComponent) {
       onPress: () => selectedComponent("displayName"),
     },
     {
-      title: "Cambiar Email",
+      title: "Cambiar correo electrónico",
       iconType: "material-community",
       iconNameLeft: "at",
       iconColorLeft: "#ccc",

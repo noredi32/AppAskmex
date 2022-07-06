@@ -52,7 +52,7 @@ function screenOptions(route, color, size) {
   let iconName;
 
   if (route.name === screen.consultant.tab) {
-    iconName = "account-circle";
+    iconName = "account-box-multiple";
   }
 
   if (route.name === screen.favorites.tab) {
@@ -68,7 +68,7 @@ function screenOptions(route, color, size) {
   }
 
   if (route.name === screen.account.tab) {
-    iconName = "home-outline";
+    iconName = "account";
   }
 
   return (
