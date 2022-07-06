@@ -28,11 +28,11 @@ export function RankingScreen() {
 
   return (
     <ScrollView>
-      {map(consultants, (consultant, index) => (
+      {map(consultants, (consultan, index) => (
         <ConsultantRanking
           key={index}
           index={index}
-          consultant={consultant.data()}
+          consultant={consultan.data()}
         />
       ))}
     </ScrollView>

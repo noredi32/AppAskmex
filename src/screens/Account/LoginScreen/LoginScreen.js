@@ -23,9 +23,9 @@ export function LoginScreen() {
         <LoginForm />
 
         <Text style={styles.textRegister}>
-          ¿Aún no tienes cuenta{" "}
+          ¿Aún no tienes cuenta? {" "}
           <Text style={styles.btnRegister} onPress={goToRegister}>
-            Regístrarse
+            Regístrate
           </Text>
         </Text>
       </View>
