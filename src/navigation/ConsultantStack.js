@@ -12,7 +12,7 @@ export function ConsultantStack() {
     <Stack.Navigator>
       <Stack.Screen
         name={screen.consultant.consultants}
-        component={ConsultantScreen}
+        component={ConsultantsScreen}
         options={{ title: "Consultores" }}
       />
       <Stack.Screen

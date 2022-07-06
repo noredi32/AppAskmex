@@ -52,10 +52,10 @@ function screenOptions(route, color, size) {
   let iconName;
 
   if (route.name === screen.consultant.tab) {
-    iconName = "user-circle-outline";
+    iconName = "account-circle";
   }
 
-  if (route.name === screen.consultant.tab) {
+  if (route.name === screen.favorites.tab) {
     iconName = "heart-outline";
   }
 
