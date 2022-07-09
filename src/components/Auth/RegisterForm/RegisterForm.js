@@ -30,7 +30,7 @@ export function RegisterForm() {
         Toast.show({
           type: "error",
           position: "bottom",
-          text1: "Error al registrarse, intentelo mas tarde",
+          text1: "Error al registrarse, intentelo más tarde",
         });
       }
     },
@@ -41,7 +41,7 @@ export function RegisterForm() {
   return (
     <View style={styles.content}>
       <Input
-        placeholder="Correo electronico"
+        placeholder="Correo electrónico"
         containerStyle={styles.input}
         rightIcon={
           <Icon type="material-community" name="at" iconStyle={styles.icon} />
@@ -80,7 +80,7 @@ export function RegisterForm() {
         errorMessage={formik.errors.repeatPassword}
       />
       <Button
-        title="Unirse"
+        title="Registrarte"
         containerStyle={styles.btnContainer}
         buttonStyle={styles.btn}
         onPress={formik.handleSubmit}

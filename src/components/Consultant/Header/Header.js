@@ -17,6 +17,8 @@ export function Header(props) {
         />
       </View>
       <Text style={styles.description}>{consultant.description}</Text>
+      <Text style={styles.description}>{consultant.cedula}</Text>
+      
     </View>
   );
 }

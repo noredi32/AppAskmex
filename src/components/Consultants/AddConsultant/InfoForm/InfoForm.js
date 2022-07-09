@@ -46,6 +46,13 @@ export function InfoForm(props) {
           onChangeText={(text) => formik.setFieldValue("description", text)}
           errorMessage={formik.errors.description}
         />
+        <Input
+          placeholder="Cédula"
+          multiline={true}
+          inputContainerStyle={styles.textArea}
+          onChangeText={(text) => formik.setFieldValue("cedula", text)}
+          errorMessage={formik.errors.cedula}
+        />
       </View>
 
       <MapForm show={showMap} close={onOpenCloseMap} formik={formik} />

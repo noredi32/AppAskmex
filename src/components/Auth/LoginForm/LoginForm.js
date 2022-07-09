@@ -41,7 +41,7 @@ export function LoginForm() {
   return (
     <View style={styles.content}>
       <Input
-        placeholder="Correo electronico"
+        placeholder="Correo electrónico"
         containerStyle={styles.input}
         rightIcon={
           <Icon type="material-community" name="at" iconStyle={styles.icon} />
