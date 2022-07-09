@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   addConsultant: {
-    backgroundColor: "#00a680",
+    backgroundColor: "#435365",
     margin: 20,
   },
 });

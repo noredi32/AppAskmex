@@ -45,7 +45,7 @@ export function AddConsultantScreen() {
       <UploadImagesForm formik={formik} />
 
       <Button
-        title="Crear consultor"
+        title="Agregar consultor"
         buttonStyle={styles.addConsultant}
         onPress={formik.handleSubmit}
         loading={formik.isSubmitting}

@@ -14,8 +14,8 @@ export function AppNavigation() {
     <Tab.Navigator
       screenOptions={({ route }) => ({
         headerShown: false,
-        tabBarActiveTintColor: "#00a680",
-        tabBarInactiveTintColor: "#646464",
+        tabBarActiveTintColor: "#233460",
+        tabBarInactiveTintColor: "#0078a7",
         tabBarIcon: ({ color, size }) => screenOptions(route, color, size),
       })}
     >

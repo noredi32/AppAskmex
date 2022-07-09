@@ -34,7 +34,7 @@ export function Info(props) {
   return (
     <View style={styles.content}>
       <Text style={styles.title}>Información sobre el consultor</Text>
-      <Map location={consultant.location} name={consultant.name} name={consultant.cedula}/>
+      <Map location={consultant.location} name={consultant.name} cedula={consultant.cedula}/>
       {map(listInfo, (item, index) => (
         <ListItem key={index} bottomDivider>
           <Icon type={item.iconType} name={item.iconName} color="#00a680" />

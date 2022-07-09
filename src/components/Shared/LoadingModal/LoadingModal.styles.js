@@ -5,9 +5,9 @@ export const styles = StyleSheet.create({
     height: 100,
     width: 200,
     backgroundColor: "#fff",
-    borderColor: "#00a680",
+    borderColor: "#233460",
     borderWidth: 2,
-    borderRadius: 10,
+   
   },
   view: {
     flex: 1,
@@ -15,8 +15,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   text: {
-    color: "#00a680",
-    textTransform: "uppercase",
+    color: "#233460",
     marginTop: 10,
   },
 });

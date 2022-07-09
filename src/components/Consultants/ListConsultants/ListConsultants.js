@@ -31,6 +31,7 @@ export function ListConsultants(props) {
                 <Text style={styles.name}>{consultant.name}</Text>
                 <Text style={styles.info}>{consultant.address}</Text>
                 <Text style={styles.info}>{consultant.description}</Text>
+                <Text style={styles.info}>{consultant.cedula}</Text>
               </View>
             </View>
           </TouchableOpacity>

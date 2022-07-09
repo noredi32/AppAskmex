@@ -97,7 +97,7 @@ export function AddReviewConsultantScreen(props) {
 
         <View>
           <Input
-            placeholder="Titulo"
+            placeholder="Título"
             onChangeText={(text) => formik.setFieldValue("title", text)}
             errorMessage={formik.errors.title}
           />

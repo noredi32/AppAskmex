@@ -17,4 +17,8 @@ export const styles = StyleSheet.create({
     marginTop: 5,
     color: "#828282",
   },
+  cedula: {
+    marginTop: 5,
+    color: "#828282",
+  },
 });

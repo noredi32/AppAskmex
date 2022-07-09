@@ -13,6 +13,6 @@ export const styles = StyleSheet.create({
     paddingBottom: 0,
   },
   dot: {
-    backgroundColor: "#00a680",
+    backgroundColor: "#0078a7",
   },
 });

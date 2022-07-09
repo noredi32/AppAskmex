@@ -15,13 +15,13 @@ export const styles = StyleSheet.create({
     width: "50%",
   },
   btnMapSave: {
-    backgroundColor: "#00a680",
+    backgroundColor: "#435365",
   },
   btnMapContainerCancel: {
     paddingLeft: 5,
     width: "50%",
   },
   btnMapCancel: {
-    backgroundColor: "#a60d0d",
+    backgroundColor: "red",
   },
 });
