@@ -9,15 +9,15 @@ export const styles = StyleSheet.create({
   },
   text: {
     textAlign: "center",
-    color: "#00a680",
+    color: "#0078a7",
     padding: 20,
   },
   textClick: {
-    color: "#00a680",
+    color: "#0078a7",
     fontWeight: "bold",
   },
   btnText: {
-    color: "#00a680",
+    color: "#0078a7",
     fontWeight: "bold",
   },
   textSendReview: {

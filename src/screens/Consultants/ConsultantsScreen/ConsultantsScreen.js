@@ -48,7 +48,7 @@ export function ConsultantsScreen(props) {
           reverse
           type="material-community"
           name="plus"
-          color="#00a680"
+          color="#068C80"
           containerStyle={styles.btnContainer}
           onPress={goToAddConsultant}
         />

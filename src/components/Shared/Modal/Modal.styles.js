@@ -4,6 +4,6 @@ export const styles = StyleSheet.create({
   overlay: {
     height: "auto",
     width: "90%",
-    backgroundColor: "#233460",
+    backgroundColor: "#E3E9EA",
   },
 });

@@ -49,8 +49,13 @@ export function ChangeEmailForm(props) {
   return (
     <View style={styles.content}>
       <Input
-        placeholder="Nuevo email"
+        placeholder="Nuevo correo electrónico"
         containerStyle={styles.input}
+        rightIcon={{
+          type: "material-community",
+          name: "at",
+          color: "#c2c2c2",
+        }}
         onChangeText={(text) => formik.setFieldValue("email", text)}
         errorMessage={formik.errors.email}
       />
@@ -68,7 +73,7 @@ export function ChangeEmailForm(props) {
         errorMessage={formik.errors.password}
       />
       <Button
-        title="Cambiar email"
+        title="Cambiar correo electrónico"
         containerStyle={styles.btnContainer}
         buttonStyle={styles.btn}
         onPress={formik.handleSubmit}

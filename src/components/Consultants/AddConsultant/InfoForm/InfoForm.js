@@ -18,6 +18,11 @@ export function InfoForm(props) {
           onChangeText={(text) => formik.setFieldValue("name", text)}
           errorMessage={formik.errors.name}
         />
+          <Input
+          placeholder="Título"
+          onChangeText={(text) => formik.setFieldValue("titulo", text)}
+          errorMessage={formik.errors.titulo}
+        />
         <Input
           placeholder="Dirección"
           rightIcon={{
@@ -46,12 +51,30 @@ export function InfoForm(props) {
           onChangeText={(text) => formik.setFieldValue("description", text)}
           errorMessage={formik.errors.description}
         />
+         <Input
+          placeholder="Sitio web"
+          onChangeText={(text) => formik.setFieldValue("web", text)}
+          errorMessage={formik.errors.web}
+        />
+          <Input
+          placeholder="C.V"
+          onChangeText={(text) => formik.setFieldValue("curri", text)}
+          errorMessage={formik.errors.curri}
+        />
+          <Input
+          placeholder="Disponibilidad"
+          onChangeText={(text) => formik.setFieldValue("dis", text)}
+          errorMessage={formik.errors.dis}
+        />
         <Input
           placeholder="Cédula"
-          multiline={true}
-          inputContainerStyle={styles.textArea}
           onChangeText={(text) => formik.setFieldValue("cedula", text)}
           errorMessage={formik.errors.cedula}
+        />
+        <Input
+          placeholder="Precio"
+          onChangeText={(text) => formik.setFieldValue("precio", text)}
+          errorMessage={formik.errors.precio}
         />
       </View>
 
@@ -63,7 +86,7 @@ export function InfoForm(props) {
 const getColorIconMap = (formik) => {
   if (formik.errors.location) return "#ff0000";
 
-  if (formik.values.location) return "#00a680";
+  if (formik.values.location) return "#0078a7";
 
   return "#c2c2c2";
 };

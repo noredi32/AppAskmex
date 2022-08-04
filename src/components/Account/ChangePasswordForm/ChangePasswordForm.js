@@ -74,7 +74,7 @@ export function ChangePasswordForm(props) {
         errorMessage={formik.errors.newPassword}
       />
       <Input
-        placeholder="Repite nueva contraseña"
+        placeholder="Repite la nueva contraseña"
         containerStyle={styles.input}
         secureTextEntry={showPassword ? false : true}
         rightIcon={{

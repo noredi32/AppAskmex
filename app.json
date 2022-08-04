@@ -36,6 +36,7 @@
         }
       ]
     ],
-    "description": ""
+    "description": "Proyecto AskMex, profesionales por videoconsulta en toda la República Mexicana.\n\nAtención por medio de videollamadas por zoom, teams, whatssap o alguna otra aplicación con video.\n\nPuedes registrarte como usuario si buscas atención rapida y de profesionales, o como consultor si tienes tiempo libre y deseas conseguir ingresos extras.",
+    "githubUrl": "https://github.com/noredi32/AppAskmex"
   }
 }

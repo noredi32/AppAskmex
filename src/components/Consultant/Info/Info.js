@@ -10,6 +10,11 @@ export function Info(props) {
 
   const listInfo = [
     {
+      text: consultant.titulo,
+      iconType: "material-community",
+      iconName: "alert-circle",
+    },
+    {
       text: consultant.address,
       iconType: "material-community",
       iconName: "map-marker",
@@ -25,9 +30,29 @@ export function Info(props) {
       iconName: "at",
     },
     {
+      text: consultant.web,
+      iconType: "material-community",
+      iconName: "web",
+    },
+    {
+      text: consultant.curri,
+      iconType: "material-community",
+      iconName: "book",
+    },
+    {
+      text: consultant.dis,
+      iconType: "material-community",
+      iconName: "clock",
+    },
+    {
       text: consultant.cedula,
       iconType: "material-community",
-      iconName: "at",
+      iconName: "card-account-details",
+    },
+    {
+      text: consultant.precio,
+      iconType: "material-community",
+      iconName: "currency-usd",
     },
   ];
 
@@ -37,7 +62,7 @@ export function Info(props) {
       <Map location={consultant.location} name={consultant.name} cedula={consultant.cedula}/>
       {map(listInfo, (item, index) => (
         <ListItem key={index} bottomDivider>
-          <Icon type={item.iconType} name={item.iconName} color="#00a680" />
+          <Icon type={item.iconType} name={item.iconName} color="#0078a7" />
           <ListItem.Content>
             <ListItem.Title>{item.text}</ListItem.Title>
           </ListItem.Content>

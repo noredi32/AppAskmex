@@ -80,7 +80,7 @@ export function RegisterForm() {
         errorMessage={formik.errors.repeatPassword}
       />
       <Button
-        title="Registrarte"
+        title="Registrarme"
         containerStyle={styles.btnContainer}
         buttonStyle={styles.btn}
         onPress={formik.handleSubmit}

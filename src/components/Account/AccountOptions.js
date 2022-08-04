@@ -67,7 +67,7 @@ export function AccountOptions(props) {
 function getMenuOptions(selectedComponent) {
   return [
     {
-      title: "Cambiar Nombre y Apellidos",
+      title: "Cambiar Nombre y apellidos",
       iconType: "material-community",
       iconNameLeft: "account-circle",
       iconColorLeft: "#ccc",

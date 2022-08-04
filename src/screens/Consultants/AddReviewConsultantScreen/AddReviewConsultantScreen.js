@@ -112,7 +112,7 @@ export function AddReviewConsultantScreen(props) {
       </View>
 
       <Button
-        title="Enviar review"
+        title="Enviar comentario"
         containerStyle={styles.btnContainer}
         buttonStyle={styles.btn}
         onPress={formik.handleSubmit}
